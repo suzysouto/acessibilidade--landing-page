@@ -16,8 +16,8 @@ import { Colors, Breakpoints, Typography, Theme } from './types'
 ///////////////////////////////////////////////////////////////////////////////
 
 const colors: Colors = {
-  primary: '#232323',
-  primaryLight: '#23232399',
+  primary: '#8A2BE2',
+  primaryLight: '#EE82EE',
   primaryDark: '#232323CC',
   secondaryDark: '#0D0D0D',
   tertiaryDark: '#1E1E1E',

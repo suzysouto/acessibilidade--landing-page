@@ -1,9 +1,5 @@
 import styled from '@emotion/styled'
 
-export const Content = styled.div`
-  background-color: red;
+export const Page = styled.div`
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `
