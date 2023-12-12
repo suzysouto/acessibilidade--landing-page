@@ -7,7 +7,6 @@ export default function App({ Component, pageProps }: AppProps) {
   const Page = styled.div`
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     background-color: ${theme.colors.background};
     color: ${theme.colors.primary};
     margin-top: 4rem;
