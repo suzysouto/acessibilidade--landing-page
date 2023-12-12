@@ -22,7 +22,7 @@ const globals = ({ typography, colors, breakpoints }: Theme) => css`
     min-height: 100vh;
     margin: 0;
     background-color: ${colors.background};
-    color: ${colors.primary};
+    color: ${colors.text};
   }
 
   a {
@@ -47,7 +47,13 @@ const globals = ({ typography, colors, breakpoints }: Theme) => css`
   input,
   select,
   textarea {
+    padding: 0.9rem 1rem;
+    margin-bottom: 0.8rem;
     font-family: ${typography.body};
+
+    &:focus {
+      border-color: ${colors.text};
+    }
   }
 
   h1,

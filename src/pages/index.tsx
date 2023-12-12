@@ -9,9 +9,9 @@ const Home = () => {
 
   return (
     <Page>
-      <Header text={"Logo"} />
-      <ContentPage text={"Content"} />
-      <Footer text={"Footer"} />
+      <Header text={'Logo'} />
+      <ContentPage />
+      <Footer text={'Powered and made by Suzane e Álvaro'} />
     </Page>
   )
 }

@@ -32,18 +32,18 @@ export const ListItems = styled.li`
 
   a {
     text-decoration: none;
-    color: ${theme.colors.primary};
+    color: ${theme.colors.invertedText};
     cursor: pointer;
   }
 `
 
 export const ListItemsIcon = styled.image`
-  color: ${theme.colors.primary};
+  color: ${theme.colors.invertedText};
   margin-right: 1rem;
 `
 
 export const ListItemsText = styled.span`
-  color: ${theme.colors.primary};
+  color: ${theme.colors.invertedText};
 `
 
 export const NavbarMobile = styled.div`
