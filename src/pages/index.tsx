@@ -12,7 +12,7 @@ const Home = () => {
       <Page>
         <Header text={'Logo'} />
         <ContentPage />
-        <Footer text={'Powered and made by Suzane e Álvaro'} />
+        <Footer text={'Desenvolvido por Suzane'} />
       </Page>    
     </>
   )
