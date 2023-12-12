@@ -1,7 +1,9 @@
 import styled from '@emotion/styled'
-import theme from '../../../../styles/theme'
 
-const small = (theme.breakpoints.small)
+const backgroundColor = '#009CDE'
+const invertedText = '#FFFFFF'
+
+const small = 769
 
 export const Content = styled.div`
   display: flex;
@@ -32,18 +34,18 @@ export const ListItems = styled.li`
 
   a {
     text-decoration: none;
-    color: ${theme.colors.invertedText};
+    color: ${invertedText};
     cursor: pointer;
   }
 `
 
 export const ListItemsIcon = styled.image`
-  color: ${theme.colors.invertedText};
+  color: ${invertedText};
   margin-right: 1rem;
 `
 
 export const ListItemsText = styled.span`
-  color: ${theme.colors.invertedText};
+  color: ${invertedText};
 `
 
 export const NavbarMobile = styled.div`

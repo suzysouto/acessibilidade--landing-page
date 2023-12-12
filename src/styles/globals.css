@@ -1,0 +1,16 @@
+:root {
+  --inverted-text-color: #FFFFFF;
+  --background-color: #009CDE;
+  --background-light-color: #0091BB;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--background-color);
+  color: var(--inverted-text-color);
+}

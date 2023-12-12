@@ -1,15 +1,14 @@
 import styled from '@emotion/styled'
-import theme from '../../../styles/theme'
+
+const backgroundLightColor = '#0091BB'
+const invertedText = '#FFFFFF'
 
 export const Content = styled.footer`
-  background-color: ${theme.colors.background};
-  color: ${theme.colors.invertedText};
+  background-color: ${backgroundLightColor};
+  color: ${invertedText};
   font-weight: 700;
-  left: 0;
-  bottom: 0;
   width: 100%;
   padding: 1rem 0;
-  position: fixed;
   text-align: center;
   font-size: 1rem;
 `

@@ -1,9 +1,11 @@
 import styled from '@emotion/styled'
-import theme from '../../../styles/theme'
+
+const backgroundLightColor = '#0091BB'
+const invertedText = '#FFFFFF'
 
 export const Content = styled.header`
-  background-color: ${theme.colors.background};
-  color: ${theme.colors.invertedText};
+  background-color: ${backgroundLightColor};
+  color: ${invertedText};
   z-index: 10;
   width: 100%;
   position: fixed;
@@ -23,7 +25,7 @@ export const LogoWrapper = styled.div`
   align-items: center;
   font-size: 1.5rem;
   font-weight: 700;
-  color: ${theme.colors.invertedText};
+  color: ${invertedText};
 
   img {
     margin-right: 1rem;
